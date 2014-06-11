@@ -10,3 +10,6 @@ lib/
 
 #exclude executable output in windows
 #*.exe
+
+#remove dbg (debug) file
+*.dbg
