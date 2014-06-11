@@ -3,7 +3,7 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="9"/>
-    <BuildModes Active="Debug"/>
+    <BuildModes Active="Release"/>
     <Units Count="2">
       <Unit0>
         <Filename Value="proj_lrs_maker.lpr"/>
@@ -21,7 +21,7 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="59"/>
+        <TopLine Value="58"/>
         <CursorPos X="33" Y="67"/>
         <UsageCount Value="25"/>
         <Loaded Value="True"/>
