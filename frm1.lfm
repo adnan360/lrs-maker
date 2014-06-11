@@ -1,0 +1,165 @@
+object Form1: TForm1
+  Left = 240
+  Height = 344
+  Top = 140
+  Width = 440
+  Caption = 'Lazarus Res File Maker'
+  ClientHeight = 344
+  ClientWidth = 440
+  LCLVersion = '1.2.2.0'
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 184
+    Top = 8
+    Width = 424
+    Caption = 'Input File'
+    ClientHeight = 166
+    ClientWidth = 420
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 11
+      Height = 15
+      Top = 13
+      Width = 21
+      Caption = 'File:'
+      ParentColor = False
+    end
+    object FileInput: TFileNameEdit
+      Left = 67
+      Height = 23
+      Top = 8
+      Width = 319
+      Filter = 'Any File (*.*)|*.*'
+      FilterIndex = 0
+      HideDirectories = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      TabOrder = 0
+    end
+    object Label2: TLabel
+      Left = 11
+      Height = 31
+      Top = 59
+      Width = 47
+      AutoSize = False
+      Caption = 'Lazarus Res File:'
+      ParentColor = False
+      WordWrap = True
+    end
+    object Label3: TLabel
+      Left = 67
+      Height = 15
+      Top = 32
+      Width = 106
+      Caption = 'File to be embedded'
+      Font.Color = cl3DDkShadow
+      Font.Style = [fsItalic]
+      ParentColor = False
+      ParentFont = False
+    end
+    object FileOutput: TFileNameEdit
+      Left = 67
+      Height = 23
+      Top = 65
+      Width = 319
+      DialogKind = dkSave
+      Filter = 'Lazarus Resource File (*.lrs)|*.lrs'
+      FilterIndex = 0
+      HideDirectories = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      TabOrder = 1
+    end
+    object btnGenerate: TBitBtn
+      Left = 118
+      Height = 30
+      Top = 119
+      Width = 194
+      Caption = 'Generate LRS File'
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+        FF00FFFFFF0027A8DC37FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF0029ACDED527A9DCE925A6DB0CFFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF002BAFDF0C2DAEDFFF2BABDEFF25A6DB8AFFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF002BAFDFCF4FBCE7FF4CBAE6FF26A7DCED24A4DB17FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF002BAFDFFF84D3F2FF55BDE7FF2EAADEFF24A4
+        DB90FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF002DB2E0C070CCEEFF83D2F2FF7ECEF1FF4AB6
+        E4FF24A5DBF122A2DA17FFFFFF00FFFFFF00FFFFFF00FFFFFF0038C2E7F036C0
+        E6F835BDE5F833BBE4F831B8E3F82FB6E2F886D7F3FF2FB6EBFF4ABCECFF80CE
+        F1FF51B9E6FF2CA8DDFF23A2DA9DFFFFFF00FFFFFF00FFFFFF003AC4E8E975DA
+        F2FF93E6F8FF91E3F7FF8DE0F6FF8ADCF5FF8ADBF5FF88D7F4FF84D3F2FF7FCF
+        F1FF7CCCF0FF7AC9EFFF48B4E3FF23A3DAF5209ED823FFFFFF003BC7E9374FCD
+        ECFF98E9F9FF4AD5F3FF45CFF1FF40CAF0FF38C2EEFF89D9F4FF2EB4E1FE2CB1
+        E0F82BAEDFF829ACDEF827A9DCF825A6DBF823A3DAE9FFFFFF00FFFFFF003BC7
+        E9F480E1F5FF8EE6F8FF43D2F3FF3FCDF1FF39C7EFFF8CDCF5FF58C6EAFF2EB4
+        E174FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF003DC9
+        EA545BD4EFFF99EAF9FF47D6F4FF42D0F2FF3DCBF0FF6ED5F3FF7FD7F3FF4AC0
+        E7FF2FB4E14AFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF003DCAEAF993E9F9FF72E1F7FF45D4F3FF41CEF2FF3CC9F0FF8ADCF5FF70D0
+        EFFF3DBBE4FF2FB5E123FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF003FCCEB8364D9F1FF9AEBFAFF48D8F4FF44D3F3FF3FCEF1FF3AC8F0FF8CDC
+        F5FF62CBEDFF31B8E3FCFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF003FCCEBFD9AEDFAFF99EBF9FF97E8F9FF94E5F8FF91E2F7FF8EDF
+        F6FF8BDBF5FF56C7EBFF31B8E3F3FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF0040CEECA23FCCEBFF3ECBEAFF3CC9E9FF3BC7E9FF3AC4E8FF38C2
+        E7FF36C0E6FF35BDE5FF33BBE4FF31B8E3E1FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+      }
+      OnClick = btnGenerateClick
+      TabOrder = 2
+    end
+  end
+  object Label4: TLabel
+    Left = 77
+    Height = 15
+    Top = 112
+    Width = 152
+    Caption = 'Output Lazarus Resource File'
+    Font.Color = cl3DDkShadow
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 8
+    Height = 111
+    Top = 224
+    Width = 424
+    Anchors = [akTop, akLeft, akBottom]
+    ScrollBars = ssVertical
+    TabOrder = 1
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 15
+    Top = 203
+    Width = 41
+    Caption = 'Output:'
+    ParentColor = False
+  end
+  object Process1: TProcess
+    Active = False
+    Options = [poWaitOnExit, poUsePipes, poStderrToOutPut, poNoConsole]
+    Priority = ppNormal
+    StartupOptions = []
+    ShowWindow = swoNone
+    WindowColumns = 0
+    WindowHeight = 0
+    WindowLeft = 0
+    WindowRows = 0
+    WindowTop = 0
+    WindowWidth = 0
+    FillAttribute = 0
+    left = 296
+    top = 240
+  end
+end

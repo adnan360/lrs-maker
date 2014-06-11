@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Debug"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="proj_lrs_maker.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="proj_lrs_maker"/>
+        <UsageCount Value="25"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frm1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frm1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="59"/>
+        <CursorPos X="33" Y="67"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="frm1.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="frm1.pas"/>
+        <Caret Line="16" Column="26" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="frm1.pas"/>
+        <Caret Line="45" Column="40" TopLine="29"/>
+      </Position3>
+      <Position4>
+        <Filename Value="frm1.pas"/>
+        <Caret Line="46" Column="50" TopLine="29"/>
+      </Position4>
+      <Position5>
+        <Filename Value="frm1.pas"/>
+        <Caret Line="57" Column="25" TopLine="41"/>
+      </Position5>
+      <Position6>
+        <Filename Value="frm1.pas"/>
+        <Caret Line="64" Column="63" TopLine="48"/>
+      </Position6>
+      <Position7>
+        <Filename Value="frm1.pas"/>
+        <Caret Line="78" Column="46" TopLine="60"/>
+      </Position7>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>
